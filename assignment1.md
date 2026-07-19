@@ -1,5 +1,3 @@
-\[최종 제출용 통합 문서\] 
-
 # 🛡️ 크리에이터 저작권 어시스턴트
 
 ### 업무 자동화 프롬프트 패키지 (LLM Prompt Engineering Package)
