@@ -37,10 +37,16 @@
 *   **Action 2 (일반 경로):** `Gmail – Send an Email` (기본 리드 등록 메일 전송) — **[요구사항 만족: 액션 2]**
 
 #### 📸 Make 구현 및 실행 화면
-![Make 워크플로우 구성 화면](./make_workflow.png)
+<img width="1919" height="1025" alt="7" src="https://github.com/user-attachments/assets/99d34707-62a3-4a8c-96e4-33ac802e1fbc" />
+<img width="1902" height="1031" alt="워크플로우화면" src="https://github.com/user-attachments/assets/1550015b-fbb0-443f-855a-9bfa9055fdd7" />
+<img width="1890" height="1032" alt="1" src="https://github.com/user-attachments/assets/80dbf451-2bbf-4399-b91b-12c2de6557b4" />
+<img width="1874" height="1030" alt="2" src="https://github.com/user-attachments/assets/9e57d753-65a5-4699-bf78-d66551e5d2ba" />
+<img width="1902" height="1039" alt="3" src="https://github.com/user-attachments/assets/0b2682ee-400e-40db-a221-5499b0cc6d4e" />
 *▲ 스크린샷 1-1: Make의 시각적 노드 기반 라우터 분기 구성 화면*
-
-![Make 실행 결과 로그](./make_log.png)
+-
+<img width="1888" height="994" alt="4" src="https://github.com/user-attachments/assets/80bee4e6-d505-41cc-a73d-48dd5c7e475a" />
+<img width="1892" height="1022" alt="5" src="https://github.com/user-attachments/assets/55c00a1f-1e12-4c2d-8f94-001ca75fb74f" />
+<img width="1873" height="1012" alt="6" src="https://github.com/user-attachments/assets/f5e26638-ade2-4beb-b85b-7e8effac76e5" />
 *▲ 스크린샷 1-2: 데이터 번들(Bundle)이 조건 분기를 통과해 정상 실행된 결과 히스토리 화면*
 
 ---
