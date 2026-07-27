@@ -58,10 +58,15 @@
 *   **Action 2:** `Slack – Send Channel Message` (팀 내부 리드 확보 알림 추가 공유) — **[요구사항 만족: 액션 2]**
 
 #### 📸 Zapier 구현 및 실행 화면
-![Zapier 워크플로우 구성 화면](./zapier_workflow.png)
+<img width="1888" height="1008" alt="1" src="https://github.com/user-attachments/assets/cde61ce3-4c6f-4221-89c1-1fc1028713ec" />
+<img width="1901" height="956" alt="2" src="https://github.com/user-attachments/assets/aa275a8d-d22a-4653-92dc-c151a8adc2d1" />
+<img width="1914" height="968" alt="3" src="https://github.com/user-attachments/assets/4c482b41-c201-4ebb-9f76-84a9dd9f2391" />
+<img width="1883" height="912" alt="4" src="https://github.com/user-attachments/assets/b6a51e53-c834-499f-a634-0aa85fe7540b" />
+<img width="1886" height="984" alt="5" src="https://github.com/user-attachments/assets/151ceeb7-2dd3-40e7-b875-681e5f2e389f" />
+<img width="1850" height="980" alt="6" src="https://github.com/user-attachments/assets/8c1b7e7f-1dbd-4eff-9848-4bf7d13acca1" />
 *▲ 스크스트 1-3: Zapier의 위에서 아래로 흐르는 리스트 기반 조건식 필터 구성 화면*
 
-![Zapier 실행 결과 로그](./zapier_log.png)
+<img width="1907" height="1007" alt="7" src="https://github.com/user-attachments/assets/8d40f2ec-a75a-4077-821b-37c2d8db78e2" />
 *▲ 스크린샷 1-4: Task History에서 필터 조건 충족 및 차단(Filtered) 여부를 확인한 실행 결과 화면*
 
 ---
@@ -107,10 +112,22 @@
 ### 4) 구현 및 실행 결과 검증 (보안 마스킹 적용)
 
 #### 📸 실전 구현 및 구동 검증 화면
-![프로젝트 2 시나리오 빌드 화면](./project2_workflow.png)
+<img width="939" height="578" alt="10" src="https://github.com/user-attachments/assets/f2d46c86-61e2-4f84-9a8a-7f6760b18133" />
+<img width="1889" height="992" alt="1" src="https://github.com/user-attachments/assets/281e281c-655f-4019-9f9f-99bea3cc3c87" />
+<img width="1906" height="967" alt="2" src="https://github.com/user-attachments/assets/3f6f2119-0da1-435c-90d9-7a2c12ac20fa" />
+<img width="1881" height="970" alt="3" src="https://github.com/user-attachments/assets/4fff5f8b-5a2e-4578-b47e-f044ebb23951" />
+<img width="1889" height="967" alt="4" src="https://github.com/user-attachments/assets/09b607d6-9c68-4ffc-8db6-0dda4a13c88e" />
+<img width="1868" height="974" alt="5" src="https://github.com/user-attachments/assets/2aa21683-b412-4063-9f7c-3db9663b2694" />
 *▲ 스크린샷 2-1: Make 플랫폼에서 구글 시트 트리거와 미수 조건 필터, 더블 액션을 연동한 화면*
 
-![Slack 실제 수신 결과 화면](./slack_result.png)
+<img width="1873" height="951" alt="6" src="https://github.com/user-attachments/assets/061cebbc-7b41-40f7-b5a7-e563adbd6484" />
+<img width="1875" height="920" alt="8" src="https://github.com/user-attachments/assets/38b19f0a-072a-49ae-a883-678afe6056d7" />
+<img width="1891" height="928" alt="9" src="https://github.com/user-attachments/assets/ec6b829b-d7e9-4543-a2e7-7be0731bfb00" />
+<img width="939" height="578" alt="10" src="https://github.com/user-attachments/assets/0ef6cb0a-6cb9-4127-a805-5cadd3cfbe11" />
+<img width="1887" height="981" alt="11" src="https://github.com/user-attachments/assets/23bc4b5f-3a2e-4340-b79f-3d9353266215" />
+<img width="1883" height="971" alt="12" src="https://github.com/user-attachments/assets/e79bba4c-fad1-49b3-9221-3bdec339aac4" />
+<img width="1888" height="980" alt="13" src="https://github.com/user-attachments/assets/e16884e4-a516-4f8a-ab4c-f7be1b0bfbb9" />
+<img width="1861" height="937" alt="14" src="https://github.com/user-attachments/assets/0e119658-6ab9-460e-956d-66110c4c417a" />
 *▲ 스크린샷 2-2: 장부 시트에 '미수금 120만 원' 혹은 '지연 35일' 데이터를 입력했을 때 필터를 통과해 슬랙 채널로 즉시 전송된 테스트 성공 화면*
 
 *   **보안 제약사항 준수 명세:** 개인 정보 보호 및 기업 금융 데이터 탈취 리스크 완화를 위해 워크플로우 내 연동 이메일 계정 주소(`accounting***@gmail.com`) 및 슬랙 웹훅 보안 고유 값 정보는 이미지와 텍스트상에서 철저히 마스킹(가림) 처리 후 검증을 완수했습니다. — **[보안 및 마스킹 가이드라인 충족]**
